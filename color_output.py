@@ -10,6 +10,7 @@ def display_notes_with_colors(notes):
 
         elif note['status'] == 'Выполненная':
             print(Fore.GREEN + f"• {note['title']}" + Style.RESET_ALL)
+
         else:
             print(Fore.BLUE + f"• {note['title']}" + Style.RESET_ALL)
 
